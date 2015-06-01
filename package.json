@@ -4,7 +4,8 @@
   "description": "A server with compilation, for those livn' the dream",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "patch": "npm version patch && npm publish && git push --follow-tags"
   },
   "preferGlobal": "true",
   "repository": {

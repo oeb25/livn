@@ -7,7 +7,7 @@ A CLI and Express middleware for getting up and running without any hurdles and 
 This tools is made for getting your projects on their feet without worrying about the underlying magic, letting you focus 100% on your code!
 
 ##### IMPORTANT
-I want to state is is mostly just a wrapper around [browserify-middleware](https://github.com/forbeslindesay/browserify-middleware) for more basic usage and an added CLI for rapid prototyping. All transformation magic goes to them, the [babel team](https://babeljs.io/) and the [browserify team](http://browserify.org/).
+I want to state this is mostly just a wrapper around [browserify-middleware](https://github.com/forbeslindesay/browserify-middleware) for more basic usage and an added CLI for rapid prototyping. All transformation magic goes to them, the [babel team](https://babeljs.io/) and the [browserify team](http://browserify.org/).
 
 ## Installation
 
