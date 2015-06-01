@@ -13,19 +13,23 @@ I want to state is is mostly just a wrapper around [browserify-middleware](https
 
 #### CLI
 
-`$ npm install -g livn`
+```
+$ npm install -g livn
+```
 
 #### Express middleware
 
-`$ npm install livn`
+```
+$ npm install livn
+```
 
 ## Usage
 
 #### CLI
 
-First make sure **livn** is installed by running `$ livn --version`.
-`cd` to your working directory and run the CLI.
-Now go to [localhost:3000](http://localhost:3000).
+1. Make sure **livn** is installed by running `$ livn --version`.
+2. `cd` to your working directory and run the CLI.
+3. Go to [localhost:3000](http://localhost:3000).
 
 Run `$ livn -h` for a list of commands.
 
