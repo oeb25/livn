@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 
 var program = require('commander');
 var livn = require('../');
@@ -9,19 +10,17 @@ var livereload = require('gulp-livereload');
 // CLI
 
 program
-	.version(require('../package.json').version)
-	.usage('[options] [dir]')
-	.option('-p, --port <port>', 'specify the port [3000]', Number, 3000)
-	.parse(process.argv);
-
+  .version(require('../package.json').version)
+  .usage('[options] [dir]')
+  .option('-p, --port <port>', 'specify the port [3000]', Number, 3000)
+  .parse(process.argv);
 
 // Setup livereload
 
 livereload.listen();
 
 chokidar.watch('./**/*.js')
-	.on('change', livereload.changed);
-
+  .on('change', livereload.changed);
 
 // Server
 
@@ -31,5 +30,5 @@ app.use(livn(app));
 app.use(express.static('./'));
 
 app.listen(program.port, function() {
-	console.log('Server is up and running of port', program.port);
+  console.log('Server is up and running of port', program.port);
 });
