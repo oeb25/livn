@@ -1,0 +1,36 @@
+{
+  "name": "livn",
+  "version": "0.0.0",
+  "description": "A server with compilation, for those livn' the dream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/oeb25/livn"
+  },
+  "keywords": [
+    "compiler",
+    "server",
+    "static"
+  ],
+  "author": "Oliver Bøving",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oeb25/livn/issues"
+  },
+  "homepage": "https://github.com/oeb25/livn",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify-middleware": "^5.0.2",
+    "chokidar": "^1.0.2",
+    "commander": "^2.8.1",
+    "express": "^4.12.4",
+    "gulp-livereload": "^3.8.0"
+  },
+  "bin": {
+    "livn": "./bin/livn"
+  }
+}
