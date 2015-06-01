@@ -1,6 +1,6 @@
 {
   "name": "livn",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A server with compilation, for those livn' the dream",
   "main": "index.js",
   "scripts": {
